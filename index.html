@@ -11,13 +11,13 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helv
 .hamburger-button.is-open .hamburger-line:nth-child(1) { transform: rotate(45deg) scaleY(0.5); position: absolute; }
 .hamburger-button.is-open .hamburger-line:nth-child(2) { opacity: 0; }
 .hamburger-button.is-open .hamburger-line:nth-child(3) { transform: rotate(-45deg) scaleY(0.5); position: absolute; }
-.main-nav { position: fixed; top: 0; right: 0; height: 100%; background-color: rgba(247, 247, 247, 0.8); transform: translateX(100%); transition: transform 0.4s ease; z-index: 999; padding-top: 4rem; }
+.main-nav { position: fixed; top: 0; right: 0; height: 100%; background-color: rgba(247, 247, 247, 0.8); transform: translateX(100%); transition: transform 0.4s ease; z-index: 999; padding-top: 5rem; }
 .main-nav.is-open { transform: translateX(0); }
 .main-nav ul { list-style: none; padding: 0; margin: 0; }
 .main-nav li { border-bottom: 0px solid #e2e8f0; }
-.main-nav a { display: flex; flex-direction: column; padding: 8px 1rem; color: #666; text-decoration: none; font-weight: normal; font-size: 1rem; transition: background-color 0.2s ease, color 0.2s ease; }
-.main-nav a:hover { background-color: #F0F0F0; color: #333; }
-.main-nav a span { font-size: 0.75rem; color: #999; margin-top: 2px; margin-left: 1rem; }
+.main-nav a { display: flex; flex-direction: column; padding: 0.25rem 1rem; color: #666; text-decoration: none; font-weight: normal; font-size: 1rem; transition: background-color 0.2s ease, color 0.2s ease; }
+.main-nav a:hover { background-color: rgba(0, 0, 0, 0.1); color: #333; }
+.main-nav a span { font-size: 0.9rem; color: #999; margin-top: 2px; margin-left: 0.75rem; }
 </style>
 </head>
 <body>
@@ -30,13 +30,13 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helv
 <nav class="main-nav" id="main-nav">
 <ul>
 <li><a href="https://ompomz.github.io/flowgazer/whatsnostr">Nostrってなに？</a></li>
-<li><a href="https://ompomz.github.io/flowgazer/index2.html">flowgazer<span>timeline</span></a></li>
-<li><a href="https://ompomz.github.io/stargazer/">stargazer<span>fav viewer</span></a></li>
-<li><a href="https://ompomz.github.io/tweetsrecap/">tweets recap</a></li>
+<li><a href="https://ompomz.github.io/flowgazer/index2.html">flowgazer<span>タイムライン</span></a></li>
+<li><a href="https://ompomz.github.io/stargazer/">stargazer<span>反響(ふぁぼられ)<span></a></li>
+<li><a href="https://ompomz.github.io/tweetsrecap/">tweets recap<span>過去の投稿</span></a></li>
 <li><a href="https://ompomz.github.io/flowgazer/hpp.html">hex pubkey picker<span>kind:3 picker</span></a></li>
-<li><a href="https://ompomz.github.io/wantpeekyou/">want peek you<span>list editor</span></a></li>
+<li><a href="https://ompomz.github.io/wantpeekyou/">want peek you<span>kind:30000 editor</span></a></li>
 <li><a href="https://ompomz.github.io/">ompomzlinks</a></li>
-<li><a href="https://github.com/ompomz/" style="color:#999">view on GitHub</a></li>
+<li><a href="https://github.com/ompomz/" style="color:#777">View on GitHub</a></li>
 </ul>
 </nav>
 <div class="page-content">
